@@ -1,4 +1,5 @@
 
+
 import sys, string, math
 from itertools import permutations, combinations
 s = input()
@@ -14,5 +15,4 @@ for c in s :
         dic2[c] = 1
 #print(dic2)
 if dic1 == dic2 : print('yes')
-else :      .
-  print('no')
+else :            print('no')
