@@ -1,4 +1,6 @@
 
+
+
 import sys,string
 s = input()
 n = len(s)
