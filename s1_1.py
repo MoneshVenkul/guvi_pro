@@ -26,28 +26,26 @@ def findstem(arr):
 
 				# Check if the generated stem is 
 				# common to to all words 
-				#if stem not in arr[k]: 
-				#	break
+				if stem not in arr[k]: 
+					break
 			
 			# If current substring is present in 
 			# all strings and its length is greater 
 			# than current result 
-			    if (k + 1 == n and len(res) < len(stem)): 
-				    res = stem 
+			if (k + 1 == n and len(res) < len(stem)): 
+				res = stem 
 
 	return res 
 
 # Driver Code 
 if __name__ == "__main__": 
-    
-    arr = [] 
-    number = int(input())
-    for i in range(number):
-        string=input()
-        arr.append(string)
-
 	
-stems = findstem(arr)
-print(stems) 
+	arr = []
+	num=int(input())
+	for i in range(num):
+	    string=input()
+	    arr.append(string)
+	stems = findstem(arr) 
+	print(stems) 
 
 # This code is contributed by Monesh Venkul
