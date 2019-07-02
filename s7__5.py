@@ -1,5 +1,7 @@
 
 
+
+
 import sys,string, math, itertools
 
 def bonAppetit(n, k, b, L):
