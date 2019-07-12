@@ -1,4 +1,5 @@
 
+
 n,p,q,r=map(int,input().split())
 a=list(map(int,input().split()))
 m=min(a)
@@ -9,4 +10,3 @@ for i in range(0,len(a)):
       if val>m:
         m=val
 print(m)
-© 2019 GitHub, Inc.
